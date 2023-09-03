@@ -32,13 +32,13 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
-
+```
 import pandas as pd
 import io
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-
+```
 ```
 #read the dataset
 df=pd.read_csv('Churn_Modelling data.csv')
