@@ -32,13 +32,13 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
-```
+
 import pandas as pd
 import io
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-```
+
 ```
 #read the dataset
 df=pd.read_csv('Churn_Modelling data.csv')
@@ -101,5 +101,5 @@ print("Size of X_test: ",len(X_test))
 ## Test Data
 ![10](https://github.com/subalakshmivenkat/Ex.No.1---Data-Preprocessing/assets/119393477/ad5e6107-6c51-49ed-acd6-5849e8ddd958)
 
-## RESULT
+## RESULT:
 Thus, the Data preprocessing is performed over a data set successfully.
